@@ -13,8 +13,18 @@ Make sure to run the file with node in your command line.
 // Log to the console each property on the `lunchOrder` object.
 // Call each method and run the file in node to verify they are working as expected.
 
-var lunchOrder = {
+var lunchOrder = { // lunchOrder = object dish = key "BLT" = values
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Your order is being prepared.")
+  },
+  complete: function() {
+    console.log("Your order is complete and ready.")
+  }
+};
+
+lunchOrder.prepare();
+lunchOrder.complete();
+console.log(lunchOrder);
