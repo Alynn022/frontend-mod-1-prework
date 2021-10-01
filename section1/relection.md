@@ -5,7 +5,7 @@
 I definitely agree that the more you read, the more you learn. These are habits that will take some time to build, but they are not habits that are not do-able. Out of the 6 traits, I resonate with 3 and 4 the most. I am always wanting to learn, and adopting a growth mindset is good because then you don't reach a goal and think the learning just ends there. I also like to teach others what I've learned. Especially when I've been stuck on something, I'm sure there are others with the same questions, and I like sharing how I problem solved, or I like sharing my methods. It's also good to spread random knowledge too, because while doing so, you may learn a thing or two, or teach someone something as well. There isn't really anything else I would add to this list, but there are a couple things I need to get into the habit of practicing, like taking care of the brain and taking short breaks.
 
 2. What are the data types you learned about in this section? In your own words, define each.
-- String - A string can contain any sequence of chracters, visible or invisible. Characters may be repeated.
+- String - A string can contain any sequence of characters, visible or invisible. Characters may be repeated.
 Example: anything in quotes (single or double)
   var name = 'Mochi'
   var color = 'White'
@@ -44,4 +44,4 @@ A concatenation happens when you join two or more strings, which could entail va
 Developers probably use concatenation when they are trying to combine strings of information like when they want to print a sentence made up of different strings.
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
-It seems like it is easier to console.log interpolation over concatenation, when would it be better to use concatenation? 
+It seems like it is easier to console.log interpolation over concatenation, when would it be better to use concatenation?

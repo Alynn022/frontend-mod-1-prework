@@ -17,8 +17,8 @@ console.log(name);
 
 // EXAMPLE: Write code below to add 2 to the variable `students` and
 // log the result:
-var enrolledStudents = 22 + 2;
-console.log(enrolledStudents);
+var students = 22 + 2;
+console.log(students);
 
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
@@ -69,4 +69,4 @@ console.log(healthySnacks + junkFoodSnacks);
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
-// as you would expect? yes. 
+// as you would expect? yes.
