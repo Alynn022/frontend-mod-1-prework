@@ -18,31 +18,31 @@ Make sure to run the file with node in your command line.
 // Prompt 1: Dog
 class Dog {
 };
-var dog1 = new Dog()
-var dog2 = new Dog()
+var dog1 = new Dog();
+var dog2 = new Dog();
 
-console.log(dog1)
-console.log(dog2)
+console.log(dog1);
+console.log(dog2);
 
 // Prompt 2: Snack
 class Snack {
 };
 
-var snack1 = new Snack()
-var snack2 = new Snack()
+var snack1 = new Snack();
+var snack2 = new Snack();
 
-console.log(snack1)
-console.log(snack2)
+console.log(snack1);
+console.log(snack2);
 
 // Prompt 3: Shirt
 class Shirt {
 };
 
-var shirt1 = new Shirt()
-var shirt2 = new Shirt()
+var shirt1 = new Shirt();
+var shirt2 = new Shirt();
 
-console.log(shirt1)
-console.log(shirt2)
+console.log(shirt1);
+console.log(shirt2);
 
 //-------------------
 // Part 2: Properties

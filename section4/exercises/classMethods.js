@@ -29,15 +29,15 @@ Make sure to run the file with node in your command line.
 
 class Burrito {
   constructor(protein, base, toppings) {
-    this.protein = protein;
-    this.base = base;
-    this.toppings = toppings;
+    this.protein = protein
+    this.base = base
+    this.toppings = toppings
   }
   changeProtein(protein) {
-    this.protein = protein
+    this.protein = protein;
   }
   addTopping(topping) {
-    this.toppings.push(topping)
+    this.toppings.push(topping);
   }
 };
 
