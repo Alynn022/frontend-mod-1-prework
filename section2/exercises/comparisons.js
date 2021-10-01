@@ -13,34 +13,34 @@ at the directions from Section 1 if you need a refresher on how to do that.
 // PART 1: Comparing variables
 //-------------------
 
-var numberTeachers = 4;
-var numberStudents = 20;
+var numTeachers = 4;
+var numStudents = 20;
 var stringTeachers = "4";
-var numberDogs = 0;
+var numDogs = 0;
 
-// EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
-// this should log: "Is numberTeachers greater than numberStudents?" false
+// EXAMPLE: log the result of the comparison: is numTeachers greater than numStudents?
+console.log("Is numTeachers greater than numStudents?", numTeachers > numStudents);
+// this should log: "Is numTeachers greater than numStudents?" false
 
-// YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+// YOU DO: log the result of the comparison: is numTeachers less than numStudents?
 // this should log: true
-console.log("Is numberTeachers less than numberStudents", numberTeachers < numberStudents);
+console.log("Is numTeachers less than numStudents", numTeachers < numStudents);
 
-// YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+// YOU DO: log the result of the comparison: is numTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-console.log("Is numberTeachers equal to stringTeachers", numberTeachers == stringTeachers);
+console.log("Is numTeachers equal to stringTeachers", numTeachers == stringTeachers);
 /*
-Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
+Note: this is an example of type coercion. Although stringTeachers is a string and numStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
 perform this evaluation
 */
 
-// YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+// YOU DO: log the result of the comparison: is numTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
+console.log("Is numTeachers strictly equal to stringTeachers?", numTeachers === stringTeachers);
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
-since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
+since the numTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
 the comparison still evaluates to false.
 
 In JavaScript, it is a best practice to use the strict comparison. It is said that, anytime a developer
@@ -48,21 +48,21 @@ thinks they _need_ to use the `==` loose comparison, they are doing something th
 you develop good habits that follow best practice, from now on, use the strict comparison.
 */
 
-// YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+// YOU DO: log the result of the comparison: is numTeachers not equal to numStudents?
 // this should log: true
-console.log("Is numberTeachers not equal to numberStudents?", numberTeachers != numberStudents);
-// YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numTeachers not equal to numStudents?", numTeachers != numStudents);
+// YOU DO: log the result of the comparison: is numStudents greater than or equal to 20?
 // this should log: true
-console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
-// YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numStudents greater than or equal to 20?", numStudents >= 20);
+// YOU DO: log the result of the comparison: is numStudents greater than or equal to 21?
 // this should log: false
-console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
-// YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numStudents greater than or equal to 21?", numStudents >= 21);
+// YOU DO: log the result of the comparison: is numStudents less than or equal to 20?
 // this should log: true
-console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
-// YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numStudents less than or equal to 20?", numStudents <= 20);
+// YOU DO: log the result of the comparison: is numStudents less than or equal to 21?
 // this should log: true
-console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
+console.log("Is numStudents less than or equal to 21?", numStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -101,13 +101,13 @@ console.log(attendees !== meals);
 //-------------------
 
 var isHungry = true;
-var finishedHomework = false;
+var isHomeworkDone = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+console.log(isHungry && isHomeworkDone);
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+console.log(isHungry || isHomeworkDone);
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -133,4 +133,4 @@ console.log(lovesToPlay && age);
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
-// as you would expect? Yes. 
+// as you would expect? Yes.
